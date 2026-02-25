@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+/* ProtonMail-inspired color scheme */
+:root {
+  --pm-bg-primary: #16141c;
+  --pm-bg-sidebar: #1b1340;
+  --pm-bg-content: #1c1b22;
+  --pm-bg-hover: rgba(255, 255, 255, 0.04);
+  --pm-bg-selected: rgba(107, 78, 255, 0.12);
+  --pm-accent: #6d4aff;
+  --pm-accent-hover: #7c5cff;
+  --pm-text-primary: #e5e1f5;
+  --pm-text-secondary: #9b95b0;
+  --pm-text-muted: #6b6583;
+  --pm-border: rgba(255, 255, 255, 0.06);
+}
+
+/* Custom scrollbar for ProtonMail dark theme */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
